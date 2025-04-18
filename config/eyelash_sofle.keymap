@@ -97,7 +97,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "BASE";
         };
 
         Nav_Edit {
@@ -108,6 +108,10 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "NAVEDT";
         };
 
         Symbols {
@@ -118,6 +122,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "SYM";
         };
 
         Macro_Numpad {
@@ -128,6 +135,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "MACRONUM";
         };
 
         DEF_FUNC {
@@ -139,7 +149,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK       &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "DEF_FUNC";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -152,6 +162,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK       &trans  &trans  &trans      &trans     &trans
             >;
 
+            display-name = "DEF_BT";
             sensor-bindings = <&scroll_encoder>;
         };
     };
