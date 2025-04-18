@@ -35,9 +35,9 @@
         tap-ms = <100>;
     };
 
-    hml: hml {
+    hml: homerow_mod_left {
         compatible = "zmk,behavior-hold-tap";
-        label = "HML";
+        label = "HOMEROW_MOD_LEFT";
         #binding-cells = <2>;
         bindings = <&kp>, <&kp>;
 
@@ -49,9 +49,9 @@
         hold-trigger-key-positions = <0 13 26 39 40 27 1 14 3 2 15 28 41 53 54 42 29 16 4 17 30 43 55 44 31 18 5 56 57>;
     };
 
-    hmr: hmr {
+    hmr: homerow_mod_right {
         compatible = "zmk,behavior-hold-tap";
-        label = "HMR";
+        label = "HOMEROW_MOD_RIGHT";
         #binding-cells = <2>;
         bindings = <&kp>, <&kp>;
 
