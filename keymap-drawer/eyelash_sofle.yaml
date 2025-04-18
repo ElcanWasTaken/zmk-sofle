@@ -274,12 +274,12 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - T
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
-  - T
   - {t: '$$mdi:transfer$$', type: trans}
   - Y
   - U
@@ -287,12 +287,12 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
+  - G
   - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
   - F
-  - G
   - {t: '$$mdi:transfer$$', type: trans}
   - H
   - J
@@ -300,12 +300,12 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
+  - B
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
-  - B
   - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
