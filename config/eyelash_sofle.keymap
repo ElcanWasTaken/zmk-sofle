@@ -150,7 +150,7 @@
 &trans           &none  &none  &none       &none       &none         &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LC(F12)
 &trans           &none  &none  &none       &none       &none         &trans  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
 &trans           &none  &none  &none       &none       &none         &trans  &none            &none            &kp KP_NUMBER_0  &kp KP_DOT       &none         &trans
-&trans           &to 6  &to 5  &trans      &trans      &trans        &trans  &trans           &trans           &trans           &to 4            &trans
+&trans           &to 6  &none  &to 5       &trans      &trans        &trans  &trans           &trans           &trans           &to 4            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -176,7 +176,7 @@
 &none       &none  &none            &mkp MB4        &mkp MB5         &none              &none  &none            &none            &mmv MOVE_UP     &none            &none  &none
 &none       &none  &mkp RCLK        &mkp MCLK       &mkp LCLK        &none              &to 0  &none            &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none  &none
 &none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 6  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &none  &none
-&kp C_MUTE  &to 6  &to 0            &none           &none            &none              &none  &none            &none            &none            &none            &none
+&kp C_MUTE  &to 6  &none            &to 0           &none            &none              &none  &none            &none            &none            &none            &none
             >;
 
             display-name = "DEF_FUNC";
@@ -187,9 +187,9 @@
             bindings = <
 &none        &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none      &none       &none
 &none        &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
-&none        &out OUT_USB  &out OUT_BLE    &none         &none         &none           &to 5  &none  &none  &none  &none      &none       &none
-&bootloader  &sys_reset    &none           &none         &none         &none           &to 0  &none  &none  &none  &soft_off  &sys_reset  &bootloader
-&none        &to 0         &to 5           &none         &none         &none           &none  &none  &none  &none  &none      &none
+&none        &out OUT_USB  &out OUT_BLE    &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
+&bootloader  &sys_reset    &none           &none         &none         &none           &none  &none  &none  &none  &soft_off  &sys_reset  &bootloader
+&none        &to 0         &none           &to 5         &none         &none           &none  &none  &none  &none  &none      &none
             >;
 
             display-name = "DEF_BT";
