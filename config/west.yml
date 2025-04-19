@@ -9,14 +9,19 @@ manifest:
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: mkhzmc #Entry for Bongo Cat
-      url-base: https://github.com/mkhzmc 
+      url-base: https://github.com/mkhzmc
+    - name: danielsodium # alternate remote for bongo cat in case I prefer this one
+      url-base: https://github.com/danielsodium
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: refactor
     # - name: mario-peripheral-animation
     #   remote: gpeye
-    #   revision: main 
+    #   revision: main
+    # - name: nice-view-gif
+    #   remote: danielsodium
+    #   revision: bongo-cat
     - name: nice-view-bongocat
       remote: mkhzmc
       revision: main
