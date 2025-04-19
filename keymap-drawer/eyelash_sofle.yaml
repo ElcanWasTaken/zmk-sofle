@@ -49,9 +49,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ',', h: '-', s: <}
+  - {t: ., h: '!'}
+  - {t: /, h: '?', s: '?'}
   - {t: SYM, h: SYM}
   - $$mdi:volume-off$$
   - LGUI
