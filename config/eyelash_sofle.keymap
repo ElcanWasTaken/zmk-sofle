@@ -189,7 +189,7 @@
 &kp C_MUTE  &to 6  &none            &to 0           &none            &none              &none  &none            &none            &none            &none            &none
             >;
 
-            display-name = "DEF_FUNC";
+            display-name = "RGB";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -202,7 +202,7 @@
 &none        &to 0         &none           &to 5         &none         &none           &none  &none  &none  &none  &none      &none
             >;
 
-            display-name = "DEF_BT";
+            display-name = "SYSTEM";
             sensor-bindings = <&scroll_encoder>;
         };
     };
