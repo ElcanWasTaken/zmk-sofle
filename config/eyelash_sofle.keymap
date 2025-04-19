@@ -133,10 +133,10 @@
 
         Symbols {
             bindings = <
-&trans  &none            &none   &none             &none              &none          &trans  &none          &none                 &none                  &none             &none     &trans
-&trans  &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR         &kp PERCENT    &trans  &kp CARET      &kp AMPERSAND         &kp STAR               &kp MINUS         &kp PLUS  &kp PIPE
-&trans  &kp GRAVE        &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &none          &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &trans    &trans
-&trans  &kp TILDE        &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &trans  &none          &none                 &kp LESS_THAN          &kp GREATER_THAN  &trans    &trans
+&trans  &none            &none   &none             &none              &none          &trans  &none          &none                 &none                  &none             &none      &trans
+&trans  &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR         &kp PERCENT    &trans  &kp CARET      &kp AMPERSAND         &kp STAR               &kp MINUS         &kp PLUS   &kp PIPE
+&trans  &kp GRAVE        &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &none          &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp COLON  &kp DOUBLE_QUOTES
+&trans  &kp TILDE        &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &trans  &none          &none                 &kp LESS_THAN          &kp GREATER_THAN  &kp SLASH  &trans
 &trans  &trans           &trans  &trans            &kp UNDERSCORE     &trans         &trans  &trans         &trans                &trans                 &trans            &trans
             >;
 
