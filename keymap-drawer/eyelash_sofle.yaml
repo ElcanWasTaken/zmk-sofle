@@ -249,9 +249,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DEF_BT, h: toggle}
+  - {t: SYSTEM, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: DEF_FUNC, h: toggle}
+  - {t: RGB, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: BASE, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  DEF_FUNC:
+  RGB:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -371,7 +371,7 @@ layers:
   - RGB ON
   - RGB EFR
   - RGB EFF
-  - {t: DEF_BT, h: toggle}
+  - {t: SYSTEM, h: toggle}
   - RGB BRI
   - RGB BRD
   - RGB SPI
@@ -379,7 +379,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
-  - {t: DEF_BT, h: toggle}
+  - {t: SYSTEM, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: BASE, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -390,7 +390,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  DEF_BT:
+  SYSTEM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -446,7 +446,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: BASE, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: DEF_FUNC, h: toggle}
+  - {t: RGB, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

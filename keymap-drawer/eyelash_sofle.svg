@@ -1630,8 +1630,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 259)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#DEF_BT">
-<text x="0" y="-4" class="key tap layer-activator">DEF_BT</text>
+<a href="#SYSTEM">
+<text x="0" y="-4" class="key tap layer-activator">SYSTEM</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 252)" class="key held keypos-54">
@@ -1642,8 +1642,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 259)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#DEF_FUNC">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">DEF_FUNC</tspan></text>
+<a href="#RGB">
+<text x="0" y="-4" class="key tap layer-activator">RGB</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(314, 283) rotate(30.0)" class="key trans keypos-56">
@@ -2034,8 +2034,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1941)" class="layer-DEF_FUNC">
-<text x="0" y="28" class="label" id="DEF_FUNC">DEF_FUNC:</text>
+<g transform="translate(40, 1941)" class="layer-RGB">
+<text x="0" y="28" class="label" id="RGB">RGB:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
@@ -2283,8 +2283,8 @@ rect.held, rect.combo.held {
 <g transform="translate(518, 91)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#DEF_BT">
-<text x="0" y="-4" class="key tap layer-activator">DEF_BT</text>
+<a href="#SYSTEM">
+<text x="0" y="-4" class="key tap layer-activator">SYSTEM</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-46">
@@ -2333,8 +2333,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 259)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#DEF_BT">
-<text x="0" y="-4" class="key tap layer-activator">DEF_BT</text>
+<a href="#SYSTEM">
+<text x="0" y="-4" class="key tap layer-activator">SYSTEM</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 252)" class="key none keypos-54">
@@ -2391,8 +2391,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2329)" class="layer-DEF_BT">
-<text x="0" y="28" class="label" id="DEF_BT">DEF_BT:</text>
+<g transform="translate(40, 2329)" class="layer-SYSTEM">
+<text x="0" y="28" class="label" id="SYSTEM">SYSTEM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
@@ -2685,8 +2685,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 259)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#DEF_FUNC">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">DEF_FUNC</tspan></text>
+<a href="#RGB">
+<text x="0" y="-4" class="key tap layer-activator">RGB</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(314, 283) rotate(30.0)" class="key none keypos-56">
