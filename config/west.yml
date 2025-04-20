@@ -8,10 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: mkhzmc #Entry for Bongo Cat
-      url-base: https://github.com/mkhzmc
-    - name: danielsodium # alternate remote for bongo cat in case I prefer this one
-      url-base: https://github.com/danielsodium
+    - name: dsifry #bongo cat
+      url-base: https://github.com/dsifry
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -19,12 +17,9 @@ manifest:
     # - name: mario-peripheral-animation
     #   remote: gpeye
     #   revision: main
-    # - name: nice-view-gif
-    #   remote: danielsodium
-    #   revision: bongo-cat
-    - name: nice-view-bongocat
-      remote: mkhzmc
-      revision: main
+    - name: nice-view-mod
+      remote: dsifry
+      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
