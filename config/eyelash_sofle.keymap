@@ -120,8 +120,8 @@
 &kp DEL                  &kp N1           &kp N2           &kp N3            &kp N4        &kp N5                        &kp UP_ARROW     &kp N6     &kp N7               &kp N8                &kp N9                     &kp N0                   &kp BACKSPACE
 &kp TAB                  &kp Q            &kp W            &kp E             &kp R         &kp T                         &kp DOWN_ARROW   &kp Y      &kp U                &kp I                 &kp O                      &kp P                    &kp BSLH
 &mt LEFT_CONTROL ESCAPE  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LSHIFT D     &hml LCTRL F  &kp G                         &kp LEFT         &kp H      &hmr LEFT_CONTROL J  &hmr LEFT_SHIFT K     &hmr LEFT_ALT L            &hmr LEFT_GUI SEMICOLON  &kp APOS
-&mo_sl 2 2               &kp Z            &kp X            &kp C             &kp V         &kp B                         &kp RIGHT_ARROW  &kp N      &kp M                &mt_tp MINUS COMMA    &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &mo_sl 2 2
-&kp C_MUTE               &kp LGUI         &mo_tog 3 3      &kp LS(LC(LALT))  &kp SPACE     &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &kp ENTER  &kp SPACE            &kp LS(LA(LC(LGUI)))  &mo_tog 1 1                &kp RALT
+&kp LEFT_BRACKET         &kp Z            &kp X            &kp C             &kp V         &kp B                         &kp RIGHT_ARROW  &kp N      &kp M                &mt_tp MINUS COMMA    &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &kp RIGHT_BRACKET
+&kp C_MUTE               &kp LGUI         &mo_tog 3 3      &kp LS(LC(LALT))  &kp SPACE     &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &kp ENTER  &lt 2 SPACE          &kp LS(LA(LC(LGUI)))  &mo_tog 1 1                &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -143,11 +143,11 @@
 
         Symbols {
             bindings = <
-&trans  &none            &none   &none             &none              &none          &trans  &none          &none                 &none                  &none             &none      &trans
-&trans  &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR         &kp PERCENT    &trans  &kp CARET      &kp AMPERSAND         &kp STAR               &kp MINUS         &kp PLUS   &kp PIPE
-&trans  &kp GRAVE        &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &none          &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp COLON  &kp DOUBLE_QUOTES
-&trans  &kp TILDE        &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &trans  &none          &none                 &kp LESS_THAN          &kp GREATER_THAN  &kp SLASH  &trans
-&trans  &trans           &trans  &trans            &kp UNDERSCORE     &trans         &trans  &trans         &trans                &trans                 &trans            &trans
+&trans          &none            &none   &none             &none              &none          &trans  &none          &none                 &none                  &none             &none      &trans
+&trans          &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR         &kp PERCENT    &trans  &kp CARET      &kp AMPERSAND         &kp STAR               &kp MINUS         &kp PLUS   &kp PIPE
+&trans          &kp GRAVE        &none   &kp LEFT_BRACE    &kp RIGHT_BRACE    &none          &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp COLON  &kp DOUBLE_QUOTES
+&kp LEFT_BRACE  &kp TILDE        &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &trans  &none          &none                 &kp LESS_THAN          &kp GREATER_THAN  &kp SLASH  &kp RIGHT_BRACE
+&trans          &trans           &trans  &trans            &kp UNDERSCORE     &trans         &trans  &trans         &trans                &trans                 &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
