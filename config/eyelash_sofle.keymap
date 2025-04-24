@@ -121,7 +121,7 @@
 &kp TAB                  &kp Q            &kp W             &kp E          &kp R         &kp T                         &msc SCRL_DOWN   &kp Y      &kp U                &kp I               &kp O                      &kp P                    &kp BSLH
 &mt LEFT_CONTROL ESCAPE  &hml LEFT_GUI A  &hml LEFT_ALT S   &hml LSHIFT D  &hml LCTRL F  &kp G                         &msc SCRL_LEFT   &kp H      &hmr LEFT_CONTROL J  &hmr LEFT_SHIFT K   &hmr LEFT_ALT L            &hmr LEFT_GUI SEMICOLON  &kp APOS
 &kp LEFT_BRACKET         &kp Z            &kp X             &kp C          &kp V         &kp B                         &msc SCRL_RIGHT  &kp N      &kp M                &mt_tp MINUS COMMA  &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &kp RIGHT_BRACKET
-&kp C_MUTE               &kp LGUI         &kp LS(LC(LALT))  &mo_tog 3 3    &kp SPACE     &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &kp ENTER  &lt 2 SPACE          &mo_tog 1 1         &kp LS(LA(LC(LGUI)))       &kp RALT
+&kp C_MUTE               &kp LGUI         &kp LS(LC(LALT))  &mo_tog 4 4    &kp SPACE     &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &kp ENTER  &lt 3 SPACE          &mo_tog 1 1         &kp LS(LA(LC(LGUI)))       &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -139,6 +139,19 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "NAVEDT";
+        };
+
+        Gaming {
+            bindings = <
+&kp ESC     &kp N1     &kp N2  &kp N3        &kp N4     &kp N5    &trans  &kp N6  &kp N7     &kp N8         &kp N9   &kp N0     &kp BSPC
+&kp T       &kp TAB    &kp Q   &kp W         &kp E      &kp R     &trans  &kp Y   &kp U      &kp I          &kp O    &kp P      &kp BSLH
+&kp G       &kp LCTRL  &kp A   &kp S         &kp D      &kp F     &trans  &kp H   &kp J      &kp K          &kp L    &kp SEMI   &kp APOS
+&kp B       &kp LSHFT  &kp Z   &kp X         &kp C      &kp V     &trans  &kp N   &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp RSHFT
+&kp C_MUTE  &kp LGUI   &mo 3   &kp LEFT_ALT  &kp SPACE  &trans    &trans  &trans  &kp SPACE  &kp RIGHT_ALT  &to 0    &kp RCTRL
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+            label = "GAMING";
         };
 
         Symbols {
@@ -160,24 +173,11 @@
 &trans           &none  &none  &none       &none       &none         &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LC(F12)
 &trans           &none  &none  &none       &none       &none         &trans  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
 &trans           &none  &none  &none       &none       &none         &trans  &none            &none            &kp KP_NUMBER_0  &kp KP_DOT       &none         &trans
-&trans           &to 6  &to 5  &trans      &trans      &trans        &trans  &trans           &trans           &trans           &to 4            &trans
+&trans           &to 6  &to 5  &trans      &trans      &trans        &trans  &trans           &trans           &trans           &to 2            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "MACRONUM";
-        };
-
-        Gaming {
-            bindings = <
-&kp ESC     &kp N1     &kp N2  &kp N3        &kp N4     &kp N5    &trans  &kp N6  &kp N7     &kp N8         &kp N9   &kp N0     &kp BSPC
-&kp T       &kp TAB    &kp Q   &kp W         &kp E      &kp R     &trans  &kp Y   &kp U      &kp I          &kp O    &kp P      &kp BSLH
-&kp G       &kp LCTRL  &kp A   &kp S         &kp D      &kp F     &trans  &kp H   &kp J      &kp K          &kp L    &kp SEMI   &kp APOS
-&kp B       &kp LSHFT  &kp Z   &kp X         &kp C      &kp V     &trans  &kp N   &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp RSHFT
-&kp C_MUTE  &kp LGUI   &mo 2   &kp LEFT_ALT  &kp SPACE  &trans    &trans  &trans  &kp SPACE  &kp RIGHT_ALT  &to 0    &kp RCTRL
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-            label = "GAMING";
         };
 
         RGB {
