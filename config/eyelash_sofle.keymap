@@ -186,7 +186,7 @@
 &none       &none  &none            &mkp MB4        &mkp MB5         &none              &none  &none            &none            &mmv MOVE_UP     &none            &none  &none
 &none       &none  &mkp RCLK        &mkp MCLK       &mkp LCLK        &none              &to 0  &none            &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none  &none
 &none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 6  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &none  &none
-&kp C_MUTE  &to 6  &none            &to 0           &none            &none              &none  &none            &none            &none            &none            &none
+&kp C_MUTE  &to 6  &trans           &to 0           &none            &none              &none  &none            &none            &none            &trans           &none
             >;
 
             display-name = "RGB";
@@ -199,7 +199,7 @@
 &none        &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
 &none        &out OUT_USB  &out OUT_BLE    &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
 &bootloader  &sys_reset    &none           &none         &none         &none           &none  &none  &none  &none  &soft_off  &sys_reset  &bootloader
-&none        &to 0         &none           &to 5         &none         &none           &none  &none  &none  &none  &none      &none
+&none        &to 0         &trans          &to 5         &none         &none           &none  &none  &none  &none  &trans     &none
             >;
 
             display-name = "SYSTEM";
