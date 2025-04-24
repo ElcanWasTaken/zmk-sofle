@@ -117,10 +117,10 @@
 
         Base {
             bindings = <
-&kp DEL                  &kp N1           &kp N2            &kp N3         &kp N4        &kp N5                        &kp UP_ARROW     &kp N6     &kp N7               &kp N8              &kp N9                     &kp N0                   &kp BACKSPACE
-&kp TAB                  &kp Q            &kp W             &kp E          &kp R         &kp T                         &kp DOWN_ARROW   &kp Y      &kp U                &kp I               &kp O                      &kp P                    &kp BSLH
-&mt LEFT_CONTROL ESCAPE  &hml LEFT_GUI A  &hml LEFT_ALT S   &hml LSHIFT D  &hml LCTRL F  &kp G                         &kp LEFT         &kp H      &hmr LEFT_CONTROL J  &hmr LEFT_SHIFT K   &hmr LEFT_ALT L            &hmr LEFT_GUI SEMICOLON  &kp APOS
-&kp LEFT_BRACKET         &kp Z            &kp X             &kp C          &kp V         &kp B                         &kp RIGHT_ARROW  &kp N      &kp M                &mt_tp MINUS COMMA  &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &kp RIGHT_BRACKET
+&kp DEL                  &kp N1           &kp N2            &kp N3         &kp N4        &kp N5                        &msc SCRL_UP     &kp N6     &kp N7               &kp N8              &kp N9                     &kp N0                   &kp BACKSPACE
+&kp TAB                  &kp Q            &kp W             &kp E          &kp R         &kp T                         &msc SCRL_DOWN   &kp Y      &kp U                &kp I               &kp O                      &kp P                    &kp BSLH
+&mt LEFT_CONTROL ESCAPE  &hml LEFT_GUI A  &hml LEFT_ALT S   &hml LSHIFT D  &hml LCTRL F  &kp G                         &msc SCRL_LEFT   &kp H      &hmr LEFT_CONTROL J  &hmr LEFT_SHIFT K   &hmr LEFT_ALT L            &hmr LEFT_GUI SEMICOLON  &kp APOS
+&kp LEFT_BRACKET         &kp Z            &kp X             &kp C          &kp V         &kp B                         &msc SCRL_RIGHT  &kp N      &kp M                &mt_tp MINUS COMMA  &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &kp RIGHT_BRACKET
 &kp C_MUTE               &kp LGUI         &kp LS(LC(LALT))  &mo_tog 3 3    &kp SPACE     &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &kp ENTER  &lt 2 SPACE          &mo_tog 1 1         &kp LS(LA(LC(LGUI)))       &kp RALT
             >;
 
