@@ -55,15 +55,15 @@ layers:
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - LGUI
-  - {t: MACRONUM, h: MACRONUM}
   - $$mdi:star-three-points$$
+  - {t: MACRONUM, h: MACRONUM}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - Meh+LGUI
   - {t: NAVEDT, h: NAVEDT}
+  - Meh+LGUI
   - $$mdi:apple-keyboard-option$$
   NAVEDT:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -250,8 +250,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SYSTEM, h: toggle}
-  - {type: held}
-  - {t: RGB, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: RGB, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
