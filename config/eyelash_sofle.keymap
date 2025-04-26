@@ -195,10 +195,10 @@
 
         RGB {
             bindings = <
-&none       &none  &none            &none           &none            &none              &none  &none            &none            &none            &none            &none  &none
-&none       &none  &none            &mkp MB4        &mkp MB5         &none              &none  &none            &none            &mmv MOVE_UP     &none            &none  &none
-&none       &none  &mkp RCLK        &mkp MCLK       &mkp LCLK        &none              &to 0  &none            &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none  &none
-&none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 7  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &none  &none
+&none       &none  &none            &none           &none            &none              &none  &none            &none            &none            &none            &none            &none
+&none       &none  &none            &mkp MB4        &mkp MB5         &none              &none  &none            &none            &mmv MOVE_UP     &none            &none            &none
+&none       &none  &mkp RCLK        &mkp MCLK       &mkp LCLK        &none              &to 0  &none            &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none            &none
+&none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 7  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
 &kp C_MUTE  &to 7  &trans           &to 0           &none            &none              &none  &none            &none            &none            &trans           &none
             >;
 
