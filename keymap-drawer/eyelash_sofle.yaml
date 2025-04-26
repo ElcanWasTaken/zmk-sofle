@@ -441,8 +441,8 @@ layers:
   - RGB BRD
   - RGB SPI
   - RGB SPD
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB HUI
+  - RGB HUD
   - $$mdi:volume-off$$
   - {t: SYSTEM, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
