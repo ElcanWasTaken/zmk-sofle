@@ -109,6 +109,14 @@
         tapping-term-ms = <200>;
     };
 
+    oss_lock: oss_lock {
+        compatible = "zmk,behavior-tap-dance";
+        label = "OSS_LOCK";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&oss, &kp>;
+    };
+
     behaviors {
     };
 
