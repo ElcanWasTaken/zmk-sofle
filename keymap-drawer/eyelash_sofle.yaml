@@ -58,7 +58,7 @@ layers:
   - {t: MACRONUM, h: MACRONUM}
   - Sft+Ctl+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Meh+LGUI}
-  - '&oss_lock'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
