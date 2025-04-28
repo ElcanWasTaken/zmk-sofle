@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: NAVEDT, h: NAVEDT}
   - Meh+LGUI
-  - $$mdi:apple-keyboard-option$$
+  - Sft+$$mdi:apple-keyboard-command$$
   NAVEDT:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
