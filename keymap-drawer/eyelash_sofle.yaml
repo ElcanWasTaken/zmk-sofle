@@ -54,7 +54,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - LGUI
+  - Sft+LGUI
   - {t: NUMPAD, h: NUMPAD}
   - Sft+Ctl+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Meh+LGUI}
