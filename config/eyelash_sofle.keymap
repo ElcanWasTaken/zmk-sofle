@@ -169,11 +169,11 @@
 
         Macro_Numpad {
             bindings = <
-&kp PRINTSCREEN  &none  &none   &kp LC(F3)  &kp LC(F4)  &kp LC(F5)    &trans  &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
-&trans           &none  &none   &none       &none       &none         &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LC(F12)
-&trans           &none  &none   &none       &none       &none         &trans  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
-&trans           &none  &none   &none       &none       &none         &trans  &none            &none            &kp KP_NUMBER_0  &kp KP_DOT       &none         &trans
-&trans           &to 6  &trans  &to 5       &trans      &trans        &trans  &trans           &trans           &trans           &to 2            &trans
+&kp PRINTSCREEN  &none  &none      &kp LC(F3)  &kp LC(F4)  &kp LC(F5)    &trans  &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
+&trans           &none  &none      &none       &none       &none         &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LC(F12)
+&trans           &none  &none      &none       &none       &none         &trans  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
+&trans           &none  &kp LC(X)  &kp LC(C)   &kp LC(V)   &none         &trans  &none            &none            &kp KP_NUMBER_0  &kp KP_DOT       &none         &trans
+&trans           &to 6  &trans     &to 5       &trans      &trans        &trans  &trans           &trans           &trans           &to 2            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
