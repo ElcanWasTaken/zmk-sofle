@@ -121,7 +121,7 @@
 &kp TAB                  &kp Q            &kp W            &kp E                 &kp R                          &kp T                         &msc SCRL_DOWN   &kp Y                &kp U                &kp I               &kp O                      &kp P                    &kp BSLH
 &mt LEFT_CONTROL ESCAPE  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LSHIFT D         &hml LCTRL F                   &kp G                         &msc SCRL_LEFT   &kp H                &hmr LEFT_CONTROL J  &hmr LEFT_SHIFT K   &hmr LEFT_ALT L            &hmr LEFT_GUI SEMICOLON  &kp APOS
 &kp LEFT_BRACKET         &kp Z            &kp X            &kp C                 &kp V                          &kp B                         &msc SCRL_RIGHT  &kp N                &kp M                &mt_tp MINUS COMMA  &mt_tp EXCLAMATION PERIOD  &mt_tp QUESTION FSLH     &kp RIGHT_BRACKET
-&kp C_MUTE               &kp F24          &mo_tog 4 4      &kp LS(LC(LEFT_ALT))  &mt_tp LS(LA(LC(LGUI))) SPACE  &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &mt_tp RSHIFT ENTER  &lt 3 SPACE          &mo_tog 1 1         &kp LS(LA(LC(LGUI)))       &kp RIGHT_ALT
+&kp C_MUTE               &kp F24          &mo_tog 5 5      &kp LS(LC(LEFT_ALT))  &mt_tp LS(LA(LC(LGUI))) SPACE  &oss LEFT_SHIFT LEFT_SHIFT    &kp ENTER        &mt_tp RSHIFT ENTER  &lt 4 SPACE          &mo_tog 1 1         &kp LS(LA(LC(LGUI)))       &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -147,11 +147,24 @@
 &kp T       &kp TAB    &kp Q   &kp W         &kp E      &kp R     &trans  &kp Y   &kp U      &kp I          &kp O    &kp P      &kp BSLH
 &kp G       &kp LCTRL  &kp A   &kp S         &kp D      &kp F     &trans  &kp H   &kp J      &kp K          &kp L    &kp SEMI   &kp APOS
 &kp B       &kp LSHFT  &kp Z   &kp X         &kp C      &kp V     &trans  &kp N   &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp RSHFT
-&kp C_MUTE  &kp LGUI   &mo 3   &kp LEFT_ALT  &kp SPACE  &trans    &trans  &trans  &kp SPACE  &kp RIGHT_ALT  &to 0    &kp RCTRL
+&kp C_MUTE  &kp LGUI   &mo 4   &kp LEFT_ALT  &kp SPACE  &trans    &trans  &trans  &kp SPACE  &kp RIGHT_ALT  &to 0    &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "GAMING";
+            label = "GAME";
+        };
+
+        GamingRTS {
+            label = "GAMERTS";
+            bindings = <
+&kp ESC     &kp N1    &kp N2  &kp N3        &kp N4     &kp N5    &trans  &kp N6  &kp N7     &kp N8         &kp N9   &kp N0     &kp BSPC
+&kp TAB     &kp Q     &kp W   &kp E         &kp R      &kp T     &trans  &kp Y   &kp U      &kp I          &kp O    &kp P      &kp BSLH
+&kp LCTRL   &kp A     &kp S   &kp D         &kp F      &kp G     &trans  &kp H   &kp J      &kp K          &kp L    &kp SEMI   &kp APOS
+&kp LSHIFT  &kp Z     &kp X   &kp C         &kp V      &kp B     &trans  &kp N   &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp RSHFT
+&kp C_MUTE  &kp LGUI  &mo 4   &kp LEFT_ALT  &kp SPACE  &trans    &trans  &trans  &kp SPACE  &kp RIGHT_ALT  &to 0    &kp RCTRL
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Symbols {
@@ -173,7 +186,7 @@
 &trans           &none  &none      &none       &none       &none         &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LC(F12)
 &trans           &none  &none      &none       &none       &none         &trans  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
 &trans           &none  &kp LC(X)  &kp LC(C)   &kp LC(V)   &none         &trans  &none            &none            &kp KP_NUMBER_0  &kp KP_DOT       &none         &trans
-&trans           &to 6  &trans     &to 5       &trans      &trans        &trans  &trans           &trans           &trans           &to 2            &trans
+&trans           &to 7  &trans     &to 6       &trans      &trans        &trans  &trans           &trans           &trans           &to 2            &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -185,8 +198,8 @@
 &none       &none  &none            &none           &none            &none              &none  &none            &none            &none            &none            &none            &none
 &none       &none  &none            &mkp MB4        &mkp MB5         &none              &none  &none            &none            &mmv MOVE_UP     &none            &none            &none
 &none       &none  &mkp RCLK        &mkp MCLK       &mkp LCLK        &none              &to 0  &none            &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none            &none
-&none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 6  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
-&kp C_MUTE  &to 6  &trans           &to 0           &none            &none              &none  &none            &none            &none            &trans           &none
+&none       &none  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &to 7  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
+&kp C_MUTE  &to 7  &trans           &to 0           &none            &none              &none  &none            &none            &none            &trans           &none
             >;
 
             display-name = "RGB";
@@ -199,7 +212,7 @@
 &none        &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
 &none        &out OUT_USB  &out OUT_BLE    &none         &none         &none           &none  &none  &none  &none  &none      &none       &none
 &bootloader  &sys_reset    &none           &none         &none         &none           &none  &none  &none  &none  &soft_off  &sys_reset  &bootloader
-&none        &to 0         &trans          &to 5         &none         &none           &none  &none  &none  &none  &trans     &none
+&none        &to 0         &trans          &to 6         &none         &none           &none  &none  &none  &none  &trans     &none
             >;
 
             display-name = "SYSTEM";
