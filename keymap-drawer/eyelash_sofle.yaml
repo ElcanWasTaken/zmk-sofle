@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: '[', s: '{'}
+  - {t: '`', s: '~'}
   - Z
   - X
   - C
@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: '-', s: <}
   - {t: ., h: '!'}
   - {t: /, h: '?', s: '?'}
-  - {t: ']', s: '}'}
+  - {t: '-', s: _}
   - $$mdi:volume-off$$
   - F24
   - {t: NUMPAD, h: NUMPAD}
@@ -288,7 +288,7 @@ layers:
   - +
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
   - '}'
@@ -300,8 +300,8 @@ layers:
   - {t: '=', s: +}
   - ':'
   - '"'
-  - '{'
   - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -312,7 +312,7 @@ layers:
   - <
   - '>'
   - {t: /, s: '?'}
-  - '}'
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
