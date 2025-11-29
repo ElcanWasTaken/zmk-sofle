@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: '-', s: <}
   - {t: ., h: '!'}
   - {t: /, h: '?', s: '?'}
-  - {t: '-', s: _}
+  - {t: '=', s: +}
   - $$mdi:volume-off$$
   - F24
   - {t: NUMPAD, h: NUMPAD}
@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: NAVEDT, h: NAVEDT}
   - Meh+LGUI
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   NAVEDT:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -312,7 +312,7 @@ layers:
   - <
   - '>'
   - {t: /, s: '?'}
-  - _
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -324,7 +324,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
+  - _
   NUMPAD:
   - PRINTSCREEN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
