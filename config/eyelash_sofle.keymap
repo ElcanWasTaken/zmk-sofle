@@ -109,6 +109,12 @@
         tapping-term-ms = <200>;
     };
 
+    lt_td: lt_tap_dance {
+        compatible = "zmk, behavior-tap-dance";
+        tapping-term-ms = <200>;
+        bindings = <&lt>, <&kp>;
+    };
+
     behaviors {
     };
 
