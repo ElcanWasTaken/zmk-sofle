@@ -112,6 +112,8 @@
     lt_td: lt_tap_dance {
         compatible = "zmk, behavior-tap-dance";
         tapping-term-ms = <200>;
+        flavor = "tap-preferred";
+        #binding-cells = <2>;
         bindings = <&lt>, <&kp>;
     };
 
