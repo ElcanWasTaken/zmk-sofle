@@ -113,7 +113,6 @@
         compatible = "zmk,behavior-tap-dance";
         label = "lt_tap_dance";
         tapping-term-ms = <200>;
-        flavor = "tap-preferred";
         #binding-cells = <2>;
         bindings = <&lt 4 SPACE>, <&mo 1>;
     };
