@@ -57,7 +57,7 @@ layers:
   - F24
   - {t: NUMPAD, h: NUMPAD}
   - Sft+Ctl+$$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: Meh+LGUI}
+  - {t: '$$mdi:backspace$$', h: Meh+LGUI}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
