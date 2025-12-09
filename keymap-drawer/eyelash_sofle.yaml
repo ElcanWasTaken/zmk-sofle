@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: NAVEDT, h: NAVEDT}
-  - Meh+LGUI
+  - {t: Hyper+F, h: Meh+LGUI}
   - {t: '-', h: _, s: _}
   NAVEDT:
   - {t: '$$mdi:transfer$$', type: trans}
