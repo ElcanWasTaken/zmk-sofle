@@ -27,4 +27,4 @@ manifest:
       revision: v0.3.0
       import: app/west.yml
   self:
-    path: boards
+    path: config
