@@ -14,7 +14,7 @@ manifest:
       url-base: https://github.com/ElcanWasTaken
   projects:
     - name: eyelash_sofle
-      url: https://github.com/a741725193/zmk-sofle
+      url: https://github.com/ElcanWasTaken/zmk-sofle
       revision: main
     # - name: mario-peripheral-animation
     #   remote: gpeye
